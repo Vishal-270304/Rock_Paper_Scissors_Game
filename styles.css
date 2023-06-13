@@ -1,0 +1,106 @@
+  @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-image: linear-gradient(#7b2cbf,#e0aaff);
+}
+
+.game-section{
+position: relative;
+top: 350px;
+}
+
+#heading{
+    font-family:  'Pangolin', cursive;;
+text-align: center;
+font-size: 40px;
+color: #d7e5dd;
+}
+
+.images-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#rock-btn{
+position: relative;
+top: 170px;
+right: 220px;
+width: 200px;
+height: 50px;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+background-color: #d8e2dc;
+color: #40916c;
+}
+#paper-btn{
+position: relative;
+top: 170px;
+right: 180px;
+width: 200px;
+height: 50px;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+background-color: #d8e2dc;
+color: #40916c;
+}
+#scissors-btn{
+position: relative;
+top: 170px;
+right: 180px;
+width: 200px;
+height: 50px;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+background-color: #d8e2dc;
+color: #40916c;
+}
+
+button:hover{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #936639;
+}
+
+#rock-image{
+    width: 250px;
+    height: 150px;
+}
+
+#paper-image{
+    height: 150px;
+    width: 170px;
+}
+
+#scissors-image{
+    height: 150px;
+    width: 170px;
+}
+
+.game-section{
+    position: relative;
+    top: 200px;
+}
+
+.game-image{
+    position: relative;
+    left: 580px;
+    top: 100px;
+    padding:30px;
+    rotate: 270deg;
+}
+
+/* #changing-image{
+    rotate: 180deg;
+} */
+/* 
+#sound-img{
+    position: absolute;
+    height: 500px;
+    width: 100px;
+} */
